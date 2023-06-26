@@ -1,0 +1,52 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    ft_putnbr                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jdelorme <jdelorme@student.42madrid>       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/06/10 16:07:33 by jdelorme          #+#    #+#              #
+#    Updated: 2023/06/10 16:50:52 by jdelorme         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#inlcude <unistd.h>
+
+void	ft_counter(int nb)
+{
+	int	i;
+
+	i = 0;
+	while ( i > 0 )
+		{
+		nb/10
+		}
+		i++
+		ft_putnbr(nb);
+}
+
+
+void ft_putnbr(int nb)
+{
+	int nb;
+	int i;
+	char c;
+	int print;
+
+	if ( nb < 0)
+	{
+	write (1, "-", 1);
+	nb *= -1;
+	}
+	print = nb/i
+	while ( i > 0)
+	{
+	
+	}
+}
+
+int main(int nb)
+{
+	ft_counter(4569);
+	return(0);
+}
